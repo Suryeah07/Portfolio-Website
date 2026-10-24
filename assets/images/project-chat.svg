@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="16" fill="url(#chatBg)"/>
+  <g transform="translate(40, 35)">
+    <rect width="520" height="310" rx="12" fill="#0f172a" fill-opacity="0.9"/>
+    <!-- Window Bar -->
+    <circle cx="25" cy="20" r="5" fill="#ef4444"/>
+    <circle cx="42" cy="20" r="5" fill="#f59e0b"/>
+    <circle cx="59" cy="20" r="5" fill="#10b981"/>
+    <text x="260" y="24" fill="#94a3b8" font-family="sans-serif" font-size="12" text-anchor="middle">AI Smart Assistant v2.4</text>
+    
+    <!-- Chat Messages Window -->
+    <!-- Bot Message 1 -->
+    <g transform="translate(30, 45)">
+      <circle cx="16" cy="16" r="14" fill="#8b5cf6"/>
+      <path d="M 12 16 L 16 12 L 20 16" fill="none" stroke="#fff" stroke-width="2"/>
+      <rect x="40" y="2" width="280" height="42" rx="10" fill="#1e293b"/>
+      <text x="55" y="22" fill="#e2e8f0" font-family="sans-serif" font-size="12">Hello! How can I help you optimize</text>
+      <text x="55" y="36" fill="#e2e8f0" font-family="sans-serif" font-size="12">your web application today?</text>
+    </g>
+    
+    <!-- User Message 1 -->
+    <g transform="translate(180, 105)">
+      <rect x="0" y="2" width="300" height="42" rx="10" fill="#6366f1"/>
+      <text x="18" y="22" fill="#ffffff" font-family="sans-serif" font-size="12">Can you analyze web accessibility</text>
+      <text x="18" y="36" fill="#ffffff" font-family="sans-serif" font-size="12">and responsive design scores?</text>
+    </g>
+    
+    <!-- Bot Message 2 -->
+    <g transform="translate(30, 165)">
+      <circle cx="16" cy="16" r="14" fill="#8b5cf6"/>
+      <rect x="40" y="2" width="360" height="60" rx="10" fill="#1e293b"/>
+      <text x="55" y="22" fill="#38bdf8" font-family="sans-serif" font-size="12">Accessibility: 100/100 | Responsive: 100/100</text>
+      <text x="55" y="40" fill="#e2e8f0" font-family="sans-serif" font-size="12">All WCAG standards met: semantic tags, ARIA labels,</text>
+      <text x="55" y="54" fill="#e2e8f0" font-family="sans-serif" font-size="12">high-contrast colors, and adaptive layouts.</text>
+    </g>
+    
+    <!-- Chat Input Bar -->
+    <g transform="translate(30, 245)">
+      <rect width="460" height="40" rx="20" fill="#1e293b"/>
+      <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="13">Type a prompt or query...</text>
+      <circle cx="435" cy="20" r="14" fill="#ec4899"/>
+      <polygon points="432,14 442,20 432,26" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>
